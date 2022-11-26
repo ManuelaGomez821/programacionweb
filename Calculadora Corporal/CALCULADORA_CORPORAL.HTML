@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Calculadora Corporal</title>
+      <link href="https://fonts.googleapis.com/css2?family=Fraunces&display=swap" rel="stylesheet">
+      <link href="calculadora_corporal.css" rel="stylesheet" />
+      <script src="javacalculadoracorporal.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div class="container">
+        <div class="calculadora">
+          <img width="300" src="indice-masa-corporal.jpg">
+          <form id="formulario" onsubmit="calcularIMC(); return false">
+            <label for="nombre">Escribe tu Nombre:</label>
+            <input type="text" id="nombre">
+            <br>
+            <label for="nombre">Escribe tu Genero:</label>
+            <input type="text" id="Genero">
+            <br>
+            <label for="altura">Escribe tu Altura Actual (Cm):</label>
+            <input type="text" id="altura" required="required">
+            <br>
+            <label for="peso">Escribe tu Peso Actual (Kg):</label>
+            <input type="text" id="peso" required="required">
+            <br>
+            <button type="submit">Calcular IMC</button>
+            <p id="resultado"></p>
+          </form>
+          <script src="java/javacalculadoracorporal.js" type="text/javascript"></script>
+          <script src="java/javacalculadoracorporal.js" type="text/javascript"></script>
+          <script src="java/javacalculadoracorporal.js" type="text/javascript" defer></script>
+        </div>
+      </div>  
+  </body>
+</html>
